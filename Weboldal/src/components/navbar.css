@@ -1,0 +1,50 @@
+.ikon{
+    width: 65px;
+}
+.cim{
+    display: inline;
+    color: white;
+    margin-left: 15px;
+}
+.navigacio{
+    width: 350px;
+    height: 100vh;
+    background-color: blue;
+    /*background: 
+        url(./bg1.jpg) no-repeat, 
+        url(./bg2.jpg) no-repeat 175px 0px, 
+        url(./bg3.jpg) no-repeat 0px 98px, 
+        url(./bg4.jpg) no-repeat 175px 98px, 
+        url(./bg5.jpg) no-repeat 0px 196px, 
+        url(./bg6.jpg) no-repeat 175px, 196px, 
+        url(./bg7.jpg) no-repeat 0px, 294px, 
+        url(./bg8.jpg) no-repeat 175px, 294px, 
+        url(./bg9.jpeg) no-repeat 0px 294px, 
+        url(./bg10.jpg) no-repeat 175px 294px, 
+        url(./bg11.jpg) no-repeat 0px 392px, 
+        url(./bg12.jpg) no-repeat 175px 392px;
+    background-size: 175px 98px;*/
+}
+.lenyilogenyo{
+    display: inline;
+}
+button{
+    float: right;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.linkek{
+    color: white;
+    margin-left: 15px;
+}
+hr{
+    color: white;
+    border: 2px solid white;
+}
+.alpop, .aljazz, .alrock, .almetal, .alfolk, .alpunk{
+    display: none;
+}
+.focim{
+    font-size: x-large;
+}
