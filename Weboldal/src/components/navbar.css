@@ -42,9 +42,19 @@ hr{
     color: white;
     border: 2px solid white;
 }
-.alpop, .aljazz, .alrock, .almetal, .alfolk, .alpunk{
+
+.alpop, .aljazz, .alrock, .almetal, .alfolk, .alpunk {
     display: none;
 }
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
 .focim{
     font-size: x-large;
 }
