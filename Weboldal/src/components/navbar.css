@@ -36,7 +36,7 @@ button{
     color: white;
 }
 .linkek{
-    color: white;
+    color: white !important;
     margin-left: 15px;
 }
 .linkek:hover, .linkek:active{
