@@ -1,0 +1,36 @@
+body{
+    background-image: url(../public/Háttér.png);
+
+}
+.szekcio{
+    /*background-color: #262D47 20%;*/
+    color: white;
+    width: 450px;
+    background-color: #262D4760;  
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    padding: 10px;
+    border-radius: 20px;
+}
+h1, p{
+  text-align: center;  
+}
+p{
+    color: #737687;
+}
+h1{
+    margin-bottom: 5%;
+}
+.grid-cont{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+main{
+    float: right;
+    margin-right: 15%;
+    margin-top: 15%;
+}
+#jobb{
+    text-align: end;
+}

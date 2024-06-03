@@ -10,6 +10,7 @@
     width: 350px;
     height: 100vh;
     background-color: blue;
+    position: fixed;
     /*background: 
         url(./bg1.jpg) no-repeat, 
         url(./bg2.jpg) no-repeat 175px 0px, 
