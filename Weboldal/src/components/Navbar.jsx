@@ -2,7 +2,8 @@
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
-import { BsArrowRight } from "react-icons/bs";
+import { FaArrowRight } from "react-icons/fa";
+import { IoMusicalNoteSharp } from "react-icons/io5";
 import { useState } from 'react';
 
 
@@ -23,7 +24,7 @@ const Navbar = () => {
                 <hr />
                 <h3 className='cim'>Műfajok</h3>
                 <Nav.Link className='linkek' onClick={() => toggleDropdown('folk')}>
-                    Folk <button><BsArrowRight /></button>
+                    Folk <button><FaArrowRight /></button>
                 </Nav.Link>
                 <div className={`alfolk ${openDropdown === 'folk' ? 'show' : 'hide'}`}>
                     <ul>
@@ -33,7 +34,7 @@ const Navbar = () => {
                 </div>
 
                 <Nav.Link className='linkek' onClick={() => toggleDropdown('metal')}>
-                    Metal <button><BsArrowRight /></button>
+                    Metal <button><FaArrowRight /></button>
                 </Nav.Link>
                 <div className={`almetal ${openDropdown === 'metal' ? 'show' : 'hide'}`}>
                     <ul>
@@ -47,7 +48,7 @@ const Navbar = () => {
                 </div>
 
                 <Nav.Link className='linkek' onClick={() => toggleDropdown('pop')}>
-                    Pop <button><BsArrowRight /></button>
+                    Pop <button><FaArrowRight /></button>
                 </Nav.Link>
                 <div className={`alpop ${openDropdown === 'pop' ? 'show' : 'hide'}`}>
                     <ul>
@@ -59,7 +60,7 @@ const Navbar = () => {
                 </div>
 
                 <Nav.Link className='linkek' onClick={() => toggleDropdown('jazz')}>
-                    Jazz <button><BsArrowRight /></button>
+                    Jazz <button><FaArrowRight /></button>
                 </Nav.Link>
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
                     <ul>
@@ -71,7 +72,7 @@ const Navbar = () => {
                 </div>
 
                 <Nav.Link className='linkek' onClick={() => toggleDropdown('rock')}>
-                    Rock <button><BsArrowRight /></button>
+                    Rock <button><FaArrowRight /></button>
                 </Nav.Link>
                 <div className={`alrock ${openDropdown === 'rock' ? 'show' : 'hide'}`}>
                     <ul>
@@ -86,7 +87,7 @@ const Navbar = () => {
                 </div>
 
                 <Nav.Link className='linkek' onClick={() => toggleDropdown('punk')}>
-                    Punk <button><BsArrowRight /></button>
+                    Punk <button><FaArrowRight /></button>
                 </Nav.Link>
                 <div className={`alpunk ${openDropdown === 'punk' ? 'show' : 'hide'}`}>
                     <ul>

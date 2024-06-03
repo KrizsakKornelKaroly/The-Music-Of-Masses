@@ -12,7 +12,7 @@
     background-color: blue;
     position: fixed;
     /*background: 
-        url(./bg1.jpg) no-repeat, 
+        url(./bg1.jpg) no-repeat 0px 0px, 
         url(./bg2.jpg) no-repeat 175px 0px, 
         url(./bg3.jpg) no-repeat 0px 98px, 
         url(./bg4.jpg) no-repeat 175px 98px, 
@@ -46,6 +46,9 @@ hr{
 
 .alpop, .aljazz, .alrock, .almetal, .alfolk, .alpunk {
     display: none;
+}
+ul{
+    list-style-type: none;
 }
 
 .show {
