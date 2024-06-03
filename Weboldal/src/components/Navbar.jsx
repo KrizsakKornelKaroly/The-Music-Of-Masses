@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
 import { FaArrowRight } from "react-icons/fa";
+import { IoMusicalNoteSharp } from "react-icons/io5";
 import { useState } from 'react';
 
 
