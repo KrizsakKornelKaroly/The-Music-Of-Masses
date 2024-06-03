@@ -39,6 +39,9 @@ button{
     color: white;
     margin-left: 15px;
 }
+.linkek:hover, .linkek:active{
+    color: white;
+}
 hr{
     color: white;
     border: 2px solid white;
@@ -60,5 +63,8 @@ ul{
 }
 
 .focim{
+    font-size: x-large;
+}
+.bogyosize{
     font-size: x-large;
 }

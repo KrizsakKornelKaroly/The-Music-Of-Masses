@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
 import { FaArrowRight } from "react-icons/fa";
-import { IoMusicalNoteSharp } from "react-icons/io5";
+import { IoMdMusicalNote } from "react-icons/io";
 import { useState } from 'react';
 
 
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <hr />
                 <h3 className='cim'>Műfajok</h3>
                 <Nav.Link className='linkek' onClick={() => toggleDropdown('folk')}>
-                    Folk <button><FaArrowRight /></button>
+                <IoMdMusicalNote className='bogyosize' /> Folk <button><FaArrowRight /></button>
                 </Nav.Link>
                 <div className={`alfolk ${openDropdown === 'folk' ? 'show' : 'hide'}`}>
                     <ul>
