@@ -11,7 +11,7 @@
     height: 100vh;
     background-color: blue;
     /*background: 
-        url(./bg1.jpg) no-repeat, 
+        url(./bg1.jpg) no-repeat 0px 0px, 
         url(./bg2.jpg) no-repeat 175px 0px, 
         url(./bg3.jpg) no-repeat 0px 98px, 
         url(./bg4.jpg) no-repeat 175px 98px, 
