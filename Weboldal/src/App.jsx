@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -33,6 +32,9 @@ function App() {
               <Nav.Link className='grid-item'>Pop <FaCircleArrowRight /></Nav.Link>
               <Nav.Link className='grid-item' id="jobb"><FaCircleArrowLeft /> Jazz</Nav.Link>
             </Nav>
+        </div>
+        <div className='szekcio'>
+          <img src="../public/TMOM_Logo.png" id="Kep" alt="" />
         </div>
       </main>
     </>
