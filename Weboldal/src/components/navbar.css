@@ -9,22 +9,10 @@
 .navigacio{
     width: 350px;
     height: 100vh;
-    background-color: blue;
     position: fixed;
-    /*background: 
-        url(./bg1.jpg) no-repeat 0px 0px, 
-        url(./bg2.jpg) no-repeat 175px 0px, 
-        url(./bg3.jpg) no-repeat 0px 98px, 
-        url(./bg4.jpg) no-repeat 175px 98px, 
-        url(./bg5.jpg) no-repeat 0px 196px, 
-        url(./bg6.jpg) no-repeat 175px, 196px, 
-        url(./bg7.jpg) no-repeat 0px, 294px, 
-        url(./bg8.jpg) no-repeat 175px, 294px, 
-        url(./bg9.jpeg) no-repeat 0px 294px, 
-        url(./bg10.jpg) no-repeat 175px 294px, 
-        url(./bg11.jpg) no-repeat 0px 392px, 
-        url(./bg12.jpg) no-repeat 175px 392px;
-    background-size: 175px 98px;*/
+    /*background-color: #262D4720;*/
+    background-image: url(./osszeshatter.png);
+    box-shadow: inset 0 0 0 1000px rgba(38, 45, 71, 0.9);
 }
 .lenyilogenyo{
     display: inline;
@@ -32,8 +20,8 @@
 button{
     float: right;
     border: none;
-    background-color: blue;
     color: white;
+    background-color: transparent;
 }
 .linkek{
     color: white;
