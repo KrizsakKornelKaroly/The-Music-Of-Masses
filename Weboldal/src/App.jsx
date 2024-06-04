@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import 'react';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -15,6 +15,7 @@ function App() {
     <>
       <Navbar />
       <main>
+        <br></br>
         <div className='szekcio'  id='elsoResz' >
           <h1>The Music of Masses</h1>
           <p>Üdvözlünk az oldalon kedves látogató! Érezd jól magad és böngészd a zenei stílusokat kedvedre, majd találd meg kedvenced.</p>
@@ -34,7 +35,11 @@ function App() {
               <Nav.Link className='grid-item' id="jobb"><FaCircleArrowLeft /> Jazz</Nav.Link>
             </Nav>
         </div>
+        <div className='szekcio' >
+            <img src="../public/TMOM_Logo.png" alt="BigCo Inc. logo" id="Kep"/>
+        </div>
       </main>
+      
     </>
   )
 }

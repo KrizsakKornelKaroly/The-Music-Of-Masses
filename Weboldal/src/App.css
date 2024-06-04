@@ -1,5 +1,7 @@
 body{
     background-image: url(../public/Háttér.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .szekcio{
@@ -26,10 +28,36 @@ h1{
     display: grid;
     grid-template-columns: auto auto;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 350px);
+    flex-direction: row;
+    float: right;
+    margin-top: 50px;
+    
 
+}
+#harmadikResz{
+    height: 250px;
+}
 #jobb{
     text-align: end;
 }
+#Kep{
+    width: 100%;
+}
+@media only screen and (max-width:1100px) {
+    main{
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        
+
+    }
+}
+
 @media only screen and (max-width:600px) {
     .szekcio{
         width: 300px;
@@ -37,4 +65,9 @@ h1{
         margin-bottom: 25px;
         
     }
+    #Kep{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
 }
