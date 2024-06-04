@@ -36,8 +36,11 @@ button{
     color: white;
 }
 .linkek{
-    color: white !important;
+    color: white;
     margin-left: 15px;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 5px;
 }
 .linkek:hover, .linkek:active{
     color: white;
@@ -72,9 +75,14 @@ ul{
     margin: 0 auto;
     padding-top: 15px;
 }
-
+.navkicsi{
+    display: none;
+}
 @media screen and (max-width: 1100px) {
     .navigacio{
         display: none;
+    }
+    .navkicsi{
+        display: inline;
     }
 }
