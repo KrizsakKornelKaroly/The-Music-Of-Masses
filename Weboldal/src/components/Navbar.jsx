@@ -42,7 +42,9 @@ const Navbar = () => {
                     have chosen. Like, text, images, lists, etc.
                 </Offcanvas.Body>
             </Offcanvas>
-
+            
+            
+            <div className='hatter'>
             <Nav className="navigacio flex-column">
                 <div className='fejlec'>
                     <img src="icon.png" alt="" className='ikon' />
@@ -126,6 +128,7 @@ const Navbar = () => {
                 <h3 className='cim'>Egyéb oldalak</h3>
                 <NavLink className='linkek'> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >
             </Nav>
+            </div>
         </>
     )
 };
