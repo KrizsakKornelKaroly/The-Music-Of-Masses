@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <>
             <Nav className="navigacio flex-column">
-                <div>
+                <div className='fejlec'>
                     <img src="icon.png" alt="" className='ikon' />
                     <h3 className='cim focim'>The Music of Masses</h3>
                 </div>
