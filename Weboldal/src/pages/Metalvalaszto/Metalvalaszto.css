@@ -1,0 +1,55 @@
+main{
+    width: calc(100% - 350px);
+}
+.cimSzoveg{
+    width: 450px;
+    background-color: #262D4760; 
+    margin-left: 5%;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+#alkotoM{
+    text-align: end;
+    display: block;
+    align-items: end;
+    font-style: italic;
+    color: aliceblue;
+
+}
+#cimM{
+    color: white;
+    text-align: left;
+    margin-left: 2%;
+}
+#szovegM{
+    text-align: left;
+    margin-left: 2.5%;
+    color: darkgrey;
+}
+#kep{
+    float: right;
+    width: 50vw;
+    margin-left: 2.5%;
+}
+#cimMa{
+    color: white;
+    text-align: left;
+    margin-left: 20%;
+}
+.ZenekarElrendezes{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.h1ZE{
+    color: white;
+}
+.zenekarok{
+    background-color: #262D4760;
+    width: 450px;
+    height: 75px;
+    margin: 20px;
+    border-radius: 30px;
+    color: white; 
+}
