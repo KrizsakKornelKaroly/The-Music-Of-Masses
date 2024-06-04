@@ -6,7 +6,7 @@
     color: white;
     margin-left: 15px;
 }
-.navigacio{
+.navigacio, .octelefon{
     width: 350px;
     height: 100vh;
     position: fixed;
@@ -17,11 +17,20 @@
 .lenyilogenyo{
     display: inline;
 }
-button{
+button, .navkicsi{
     float: right;
     border: none;
     color: white;
     background-color: transparent;
+}
+.navkicsi{
+    font-size: xx-large;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+.navkicsi:hover, .navkicsi:active{
+    background-color: transparent !important;
 }
 .linkek{
     color: white;
@@ -29,6 +38,7 @@ button{
     text-decoration: none;
     font-size: x-large;
     padding: 5px;
+    display: block;
 }
 .linkek:hover, .linkek:active{
     color: white;
@@ -65,6 +75,9 @@ ul{
 }
 .navkicsi{
     display: none;
+}
+.telonavi{
+    display: inline;
 }
 @media screen and (max-width: 1100px) {
     .navigacio{
