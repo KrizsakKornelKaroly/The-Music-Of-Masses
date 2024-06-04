@@ -26,11 +26,16 @@ h1{
     display: grid;
     grid-template-columns: auto auto;
 }
-main{
-    float: right;
-    margin-right: 15%;
-    margin-top: 15%;
-}
+
 #jobb{
     text-align: end;
+}
+@media only screen and (max-width:600px) {
+    .szekcio{
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        
+    }
+    
 }
