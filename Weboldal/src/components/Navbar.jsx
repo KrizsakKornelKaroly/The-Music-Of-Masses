@@ -69,8 +69,9 @@ const Navbar = () => {
                     <FaRecordVinyl className='bogyosize' /> Pop <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alpop ${openDropdown === 'pop' ? 'show' : 'hide'}`}>
+                
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> K-pop</NavLink ></li>
+                        <li><NavLink className='linkek'  to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Eurobeat</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Lo-Fi</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Schlager pop</NavLink ></li>
@@ -156,7 +157,7 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`alpop ${openDropdown === 'pop' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> K-pop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Eurobeat</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Lo-Fi</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Schlager pop</NavLink ></li>
