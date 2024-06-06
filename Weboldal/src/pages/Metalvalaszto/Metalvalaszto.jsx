@@ -52,21 +52,21 @@ const Metalvalaszto = () => {
             itemClass="carousel-item-padding-40-px"
             className="testcarousel"
           >
-            <div>A</div>
-            <div>B</div>
-            <div>C</div>
-            <div>D</div>
-            <div>E</div>
-            <div>F</div>
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
           </Carousel>
           
          <div className="ZenekarElrendezes">
           <h1 className="h1ZE">Külföldi Zenekarok</h1>
           <h1 className="h1ZE">Belföldi Zenekarok</h1>
-          <div className="zenekarok"><span>asd</span></div>
-          <div className="zenekarok">sad</div>
-          <div className="zenekarok">asd</div>
-          <div className="zenekarok">sad</div>
+          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
+          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
+          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
+          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
         </div> 
       </main>
 

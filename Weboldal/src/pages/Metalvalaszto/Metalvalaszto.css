@@ -30,7 +30,7 @@ main{
 }
 #kep{
     float: right;
-    width: 50vw;
+    width: 30vw;
     margin-left: 2.5%;
 }
 #cimMa{
@@ -59,4 +59,7 @@ main{
     margin-left: 50px;
     height: 80px;
     color: black;
+}
+.jobboldalValaszto{
+    align-content: end;
 }
