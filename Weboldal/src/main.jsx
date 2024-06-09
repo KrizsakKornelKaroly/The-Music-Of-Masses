@@ -34,6 +34,7 @@ import Jazz_Smooth from './pages/Jazz_Smooth/Jazz_Smooth';
 import Metal_Power from './pages/Metal_Power/Metal_Power';
 import Metal_Symphonic from './pages/Metal_Symphonic/Metal_Symphonic';
 import Folk_Magyar from './pages/Folk_Magyar/Folk_Magyar';
+import Folk_Skandinav from './pages/Folk_Skandinav/Folk_Skandinav';
 
 
 
@@ -165,6 +166,10 @@ const router = createBrowserRouter([
   {
     path: '/magyarfolk',
     element: <Folk_Magyar />
+  },
+  {
+    path: '/skandinavfolk',
+    element: <Folk_Skandinav />
   }
 ]);
 
