@@ -56,7 +56,7 @@ const Navbar = () => {
                     <PiHeadphonesBold className='bogyosize' /> Metal <button><FaArrowRight /></button></NavLink>
                 <div className={`almetal ${openDropdown === 'metal' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Heavy metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/heavymetal"}> <TbBellExclamation /> Heavy metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Thrash metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Gothic metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Death metal</NavLink ></li>
@@ -143,7 +143,7 @@ const Navbar = () => {
                     <PiHeadphonesBold className='bogyosize' /> Metal <button><FaArrowRight /></button></NavLink>
                 <div className={`almetal ${openDropdown === 'metal' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Heavy metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/heavymetal"}> <TbBellExclamation /> Heavy metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Thrash metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Gothic metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Death metal</NavLink ></li>
