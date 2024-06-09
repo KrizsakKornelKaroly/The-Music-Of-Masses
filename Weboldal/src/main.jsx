@@ -24,6 +24,7 @@ import Pop_Eurobeat from './pages/Pop_Eurobeat/Pop_Eurobeat';
 import Pop_Lofi from './pages/Pop_Lofi/Pop_Lofi';
 import Jazz_Bepop from './pages/Jazz_Bepop/Jazz_Bepop';
 import Jazz_Boogie from './pages/Jazz_Boogie/Jazz_Boogie';
+import Jazz_Swing from './pages/Jazz_Swing/Jazz_Swing';
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
 import Metal_Death from './pages/Metal_Death/Metal_Death';
@@ -134,6 +135,10 @@ const router = createBrowserRouter([
   {
     path: '/jazzsmooth',
     element: <Jazz_Smooth />,
+  },
+  {
+    path: '/jazzswing',
+    element: <Jazz_Swing />,
   },
 ]);
 
