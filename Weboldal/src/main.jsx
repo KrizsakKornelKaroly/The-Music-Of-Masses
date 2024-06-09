@@ -141,6 +141,10 @@ const router = createBrowserRouter([
     path: '/jazzsmooth',
     element: <Jazz_Smooth />,
   },
+  {
+    path: '/metalpower',
+    element: <Metal_Power />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
