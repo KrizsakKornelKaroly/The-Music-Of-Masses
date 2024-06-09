@@ -128,6 +128,18 @@ const router = createBrowserRouter([
     path: '/jazzbepop',
     element: <Jazz_Bepop />,
   },
+  {
+    path: '/folkvalaszto',
+    element: <Folk_Valaszto />,
+  },
+  {
+    path: '/jazzboogie',
+    element: <Jazz_Boogie />,
+  },
+  {
+    path: '/jazzsmooth',
+    element: <Jazz_Smooth />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
