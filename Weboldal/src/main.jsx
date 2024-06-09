@@ -26,6 +26,7 @@ import Jazz_Bepop from './pages/Jazz_Bepop/Jazz_Bepop';
 import Folk_Valaszto from './pages/FolkValaszto/FolkValaszto'
 import Jazz_Boogie from './pages/Jazz_Boogie/Jazz_Boogie';
 import Jazz_Swing from './pages/Jazz_Swing/Jazz_Swing';
+import JazzValaszto from './pages/JazzValaszto/JazzValaszto'
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
 import Metal_Death from './pages/Metal_Death/Metal_Death';
@@ -149,6 +150,10 @@ const router = createBrowserRouter([
   {
     path: '/jazzswing',
     element: <Jazz_Swing />,
+  },
+  {
+    path: '/jazzvalaszto',
+    element: <JazzValaszto />,
   },
 ]);
 

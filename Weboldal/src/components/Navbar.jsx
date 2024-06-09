@@ -78,7 +78,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('jazz')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('jazz')} to={"/jazzvalaszto"}>
                     <PiRadioBold className='bogyosize' /> Jazz <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
@@ -164,7 +164,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('jazz')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('jazz')} to={"/jazzvalaszto"}>
                     <PiRadioBold className='bogyosize' /> Jazz <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
