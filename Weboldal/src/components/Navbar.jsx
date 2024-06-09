@@ -59,9 +59,9 @@ const Navbar = () => {
                         <li><NavLink className='linkek' to={"/heavymetal"}> <TbBellExclamation /> Heavy metal</NavLink ></li>
                         <li><NavLink className='linkek' to={"/thrashmetal"}> <TbBell /> Thrash metal</NavLink ></li>
                         <li><NavLink className='linkek' to={"/gothicmetal"}> <TbBellExclamation /> Gothic metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Death metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Power metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Symphonic metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/deathmetal"}> <TbBell /> Death metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/powermetal"}> <TbBellExclamation /> Power metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/symphonicmetal"}> <TbBell /> Symphonic metal</NavLink ></li>
                     </ul>
                 </div>
 
@@ -146,9 +146,9 @@ const Navbar = () => {
                         <li><NavLink className='linkek' to={"/heavymetal"}> <TbBellExclamation /> Heavy metal</NavLink ></li>
                         <li><NavLink className='linkek' to={"/thrashmetal"}> <TbBell /> Thrash metal</NavLink ></li>
                         <li><NavLink className='linkek' to={"/gothicmetal"}> <TbBellExclamation /> Gothic metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Death metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Power metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Symphonic metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/deathmetal"}> <TbBell /> Death metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/powermetal"}> <TbBellExclamation /> Power metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/symphonicmetal"}> <TbBell /> Symphonic metal</NavLink ></li>
                     </ul>
                 </div>
 
