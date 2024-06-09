@@ -1,0 +1,130 @@
+.mainPunk{
+    width: calc(100% - 350px);
+    float: right;
+
+}
+.cimSzovegP{
+    width: 30%;
+    background-color: #262D4760; 
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+#alkotoP{
+    text-align: end;
+    display: block;
+    align-items: end;
+    font-style: italic;
+    color: aliceblue;
+
+}
+#cimP{
+    color: white;
+    text-align: left;
+    margin-left: 2%;
+}
+#szovegP{
+    text-align: left;
+    margin-left: 2.5%;
+    color: darkgrey;
+}
+#kepP{
+    width: 41vw;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+}
+#cimPu{
+    color: white;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.testcarouselPu{
+
+    width: 85%;
+    margin: 0 auto;
+    height: 200px;
+    color: black;
+}
+.kepCarouselPunk{
+    width: 150px;
+    height: 150px;
+}
+
+.puCsikok{
+    background-color: #262D47;
+    display: block;
+    margin: 20px;
+    border-radius: 50px;
+    width: 90%;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.puIkon{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+}
+.puZaszlo{
+    width: 35px;
+}
+.puZaszloFo, .puEvszam, .puZNev, .puIkonKor{
+    display: inline;
+    margin-left: 2%;
+}
+.puEvszam{
+    float: right;
+    margin-bottom: 0px;
+    font-size: larger;
+    top: 50%;
+}
+.puZenekarszekcio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.puBaloszlop, .puJobboszlop{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+.kepPunk{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+@media only screen and (max-width:1100px) {
+    .mainPunk{
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+    #kepP{
+        display: none;
+    }
+    .cimSzovegP{
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width:750px) {
+    .puZenekarszekcio{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
