@@ -24,8 +24,11 @@ import Pop_Eurobeat from './pages/Pop_Eurobeat/Pop_Eurobeat';
 import Pop_Lofi from './pages/Pop_Lofi/Pop_Lofi';
 import Jazz_Bepop from './pages/Jazz_Bepop/Jazz_Bepop';
 import Folk_Valaszto from './pages/FolkValaszto/FolkValaszto'
+import Jazz_Boogie from './pages/Jazz_Boogie/Jazz_Boogie';
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
+import Metal_Death from './pages/Metal_Death/Metal_Death';
+import Jazz_Smooth from './pages/Jazz_Smooth/Jazz_Smooth';
 
 
 const router = createBrowserRouter([
@@ -106,6 +109,10 @@ const router = createBrowserRouter([
     element: <Punk_Gothic />,
   },
   {
+    path:'/deathmetal',
+    element: <Metal_Death />,
+  },
+  {
     path: '/popschlager',
     element: <Pop_Schlager />,
   },
@@ -120,10 +127,6 @@ const router = createBrowserRouter([
   {
     path: '/jazzbepop',
     element: <Jazz_Bepop />,
-  },
-  {
-    path: '/folkvalazto',
-    element: <Folk_Valaszto />,
   },
 ]);
 
