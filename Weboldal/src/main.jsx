@@ -18,6 +18,7 @@ import Rock_Punk from './pages/Rock_Punk/Rock_Punk';
 import Rolunk from './pages/Rolunk/Rolunk';
 import Rock_Modern from './pages/Rock_Modern/Rock_Modern';
 import Punk_Death from './pages/Punk_Death/Punk_Death';
+import Punk_Gothic from './pages/Punk_Gothic/Punk_Gothic';
 import './App.css';
 
 
@@ -89,7 +90,11 @@ const router = createBrowserRouter([
   {
     path: '/thrashmetal',
     element: <Metal_Thrash />,
-  }
+  },
+  {
+    path: '/gothicpunk',
+    element: <Punk_Gothic />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
