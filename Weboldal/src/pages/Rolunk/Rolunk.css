@@ -1,0 +1,40 @@
+.rolunkMain{
+    width: calc(100% - 350px);
+    color: white;
+    float: right;
+}
+.rolunkFlex{
+    display: flex;
+}
+.rolunkGomb{
+    background-color: transparent !important;
+    border: none;
+}
+.rolNev{
+    font-size: xx-large;
+    text-align: center;
+}
+.ogModalFo{
+    width: 90% !important;
+}
+.ogModal{
+    background-color: aquamarine;
+}
+.bezaras{
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.rolunkMaradsz{
+    background-color: aqua;
+    width: 20%;
+    height: 100%;
+    border-right: 5px solid black;
+}
+.rGeri{
+    width: 100%;
+}
+.modalGeri{
+    background-color: pink !important;
+}

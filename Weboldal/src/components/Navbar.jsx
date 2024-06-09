@@ -112,7 +112,7 @@ const Navbar = () => {
                     <ul>
                         <li><NavLink className='linkek'> <TbBell /> Deathpunk</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Gothic punk</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Folk punk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/folkpunk"}> <TbBell /> Folk punk</NavLink ></li>
                     </ul>
                 </div>
 
@@ -198,7 +198,7 @@ const Navbar = () => {
                     <ul>
                         <li><NavLink className='linkek'> <TbBell /> Deathpunk</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Gothic punk</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Folk punk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/folkpunk"}> <TbBell /> Folk punk</NavLink ></li>
                     </ul>
                 </div>
 
