@@ -84,8 +84,8 @@ const Navbar = () => {
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
                     <ul>
                         <li><NavLink className='linkek' to={"/jazzbepop"}> <TbBell /> Bepop</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Smooth jazz</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/jazzboogie"}> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/jazzsmooth"}> <TbBell /> Smooth jazz</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Swing</NavLink ></li>
                     </ul>
                 </div>
@@ -170,8 +170,8 @@ const Navbar = () => {
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
                     <ul>
                         <li><NavLink className='linkek' to={"/jazzbepop"}> <TbBell /> Bepop</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Smooth jazz</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/jazzboogie"}> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/jazzsmooth"}> <TbBell /> Smooth jazz</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Swing</NavLink ></li>
                     </ul>
                 </div>
