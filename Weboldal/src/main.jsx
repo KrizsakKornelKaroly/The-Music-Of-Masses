@@ -10,6 +10,7 @@ import Punkvalaszto from './pages/PunkValaszto/PunkValaszto';
 import Classic_Rock from './pages/Rock_Classic/Rock_Classic';
 import Folk_Rock from './pages/Rock_Folk/Rock_Folk';
 import Hard_Rock from './pages/Rock_Hard/Rock_Hard';
+import Folk_Punk from './pages/Punk_Folk/Punk_Folk'
 import './App.css';
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: '/hardrock',
     element: <Hard_Rock />
+  },
+  {
+    path: '/folkpunk',
+    element: <Folk_Punk />
   },
 ]);
 
