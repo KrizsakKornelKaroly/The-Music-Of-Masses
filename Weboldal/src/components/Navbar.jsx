@@ -47,8 +47,8 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`alfolk ${openDropdown === 'folk' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> Magyar folk</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Skandináv folk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/magyarfolk"}> <TbBell /> Magyar folk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/skandinavfolk"}> <TbBellExclamation /> Skandináv folk</NavLink ></li>
                     </ul>
                 </div>
 
@@ -72,9 +72,9 @@ const Navbar = () => {
                 
                     <ul>
                         <li><NavLink className='linkek'  to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/popeurobeat"}> <TbBellExclamation /> Eurobeat</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/poplofi"}> <TbBell /> Lo-Fi</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/popschlager"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/eurobeat"}> <TbBellExclamation /> Eurobeat</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/lofi"}> <TbBell /> Lo-Fi</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/schlagerpop"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
                     </ul>
                 </div>
 
@@ -83,9 +83,9 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek' to={"/jazzbepop"}> <TbBell /> Bepop</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/jazzboogie"}> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/jazzsmooth"}> <TbBell /> Smooth jazz</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/bepop"}> <TbBell /> Bepop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/boogiejazz"}> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/smoothjazz"}> <TbBell /> Smooth jazz</NavLink ></li>
                         <li><NavLink className='linkek' to={"/jazzswing"}> <TbBellExclamation /> Swing</NavLink ></li>
                     </ul>
                 </div>
@@ -134,8 +134,8 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`alfolk ${openDropdown === 'folk' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> Magyar folk</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Skandináv folk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/magyarfolk"}> <TbBell /> Magyar folk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/skandinavfolk"}> <TbBellExclamation /> Skandináv folk</NavLink ></li>
                     </ul>
                 </div>
 
@@ -158,9 +158,9 @@ const Navbar = () => {
                 <div className={`alpop ${openDropdown === 'pop' ? 'show' : 'hide'}`}>
                     <ul>
                         <li><NavLink className='linkek' to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/popeurobeat"}> <TbBellExclamation /> Eurobeat</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/poplofi"}> <TbBell /> Lo-Fi</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/popschlager"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/eurobeat"}> <TbBellExclamation /> Eurobeat</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/lofi"}> <TbBell /> Lo-Fi</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/schlagerpop"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
                     </ul>
                 </div>
 
@@ -169,9 +169,9 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek' to={"/jazzbepop"}> <TbBell /> Bepop</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/jazzboogie"}> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
-                        <li><NavLink className='linkek' to={"/jazzsmooth"}> <TbBell /> Smooth jazz</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/bepop"}> <TbBell /> Bepop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/boogiejazz"}> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/smoothjazz"}> <TbBell /> Smooth jazz</NavLink ></li>
                         <li><NavLink className='linkek' to={"/jazzswing"}> <TbBellExclamation /> Swing</NavLink ></li>
                     </ul>
                 </div>

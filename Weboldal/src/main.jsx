@@ -120,19 +120,19 @@ const router = createBrowserRouter([
     element: <Metal_Death />,
   },
   {
-    path: '/popschlager',
+    path: '/schlagerpop',
     element: <Pop_Schlager />,
   },
   {
-    path: '/popeurobeat',
+    path: '/eurobeat',
     element: <Pop_Eurobeat />,
   },
   {
-    path: '/poplofi',
+    path: '/lofi',
     element: <Pop_Lofi />,
   },
   {
-    path: '/jazzbepop',
+    path: '/bepop',
     element: <Jazz_Bepop />,
   },
   {
@@ -140,11 +140,11 @@ const router = createBrowserRouter([
     element: <Folk_Valaszto />,
   },
   {
-    path: '/jazzboogie',
+    path: '/boogiejazz',
     element: <Jazz_Boogie />,
   },
   {
-    path: '/jazzsmooth',
+    path: '/smoothjazz',
     element: <Jazz_Smooth />,
   },
   {
