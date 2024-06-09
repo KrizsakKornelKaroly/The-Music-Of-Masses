@@ -42,7 +42,7 @@ const PopValaszto = () => {
           <h1 id="cimF">Pop stílus</h1>
           <p id="szovegF">"Az élet olyan, mint egy popdal: hol könnyed dallam, hol megható szöveg, de mindig a szív rezdüléseivel csendül."</p>
         </div>
-        <img src="./public/popmandro.png" id="kepF" />
+        <img src="/popmandro.png" id="kepF" />
         <h1 id="cimFo">Alstílus</h1>
         <Carousel
             swipeable={false}

@@ -43,7 +43,7 @@ const Rockvalaszto = () => {
           <p id="szovegR">Oda megyek, ahová a gitárom visz.</p>
           <span id="alkotoR">Angus Young</span>
         </div>
-        <img src="./public/young.png" id="kepR" />
+        <img src="/young.png" id="kepR" />
         <h1 id="cimRo">Alstílus</h1>
         <Carousel
             swipeable={false}

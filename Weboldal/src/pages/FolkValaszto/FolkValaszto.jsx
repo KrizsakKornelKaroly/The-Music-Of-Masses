@@ -42,7 +42,7 @@ const FolkValaszto = () => {
           <h1 id="cimF">Folk stílus</h1>
           <p id="szovegF">"Az élet útján járva hallom a fák susogását, a folyó zúgását, s mindezek dalában megtalálom az ősök bölcsességét és a természet örök harmóniáját."</p>
         </div>
-        <img src="./public/folkem.png" id="kepF" />
+        <img src="/folkem.png" id="kepF" />
         <h1 id="cimFo">Alstílus</h1>
         <Carousel
             swipeable={false}

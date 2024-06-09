@@ -43,7 +43,7 @@ const Metalvalaszto = () => {
           <p id="szovegM">Kemény erős nőket szeretem. Amíg le tudom győzni őket szkanderben, nincs gond.</p>
           <span id="alkotoM">James Hetfield</span>
         </div>
-        <img src="./public/JamesHetfield.png" id="kepM" />
+        <img src="/JamesHetfield.png" id="kepM" />
         <h1 id="cimMa">Alstílus</h1>
         <Carousel
             swipeable={false}
