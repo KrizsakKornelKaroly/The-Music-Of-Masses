@@ -42,7 +42,7 @@ const Navbar = () => {
                 <Offcanvas.Body>
                     <hr />
                 <h3 className='cim'>Műfajok</h3>
-                <NavLink className='linkek' onClick={() => toggleDropdown('folk')} to={"/folkvalazto"}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('folk')} to={"/folkvalaszto"}>
                     <IoMdMusicalNote className='bogyosize' /> Folk <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alfolk ${openDropdown === 'folk' ? 'show' : 'hide'}`}>
@@ -129,7 +129,7 @@ const Navbar = () => {
                 </div>
                 <hr />
                 <h3 className='cim'>Műfajok</h3>
-                <NavLink className='linkek' onClick={() => toggleDropdown('folk')} to={"/folkvalazto"}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('folk')} to={"/folkvalaszto"}>
                     <IoMdMusicalNote className='bogyosize' /> Folk <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alfolk ${openDropdown === 'folk' ? 'show' : 'hide'}`}>
