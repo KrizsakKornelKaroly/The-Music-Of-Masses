@@ -13,14 +13,6 @@
     border-radius: 20px;
     height: 250px;
 }
-#alkotoP{
-    text-align: end;
-    display: block;
-    align-items: end;
-    font-style: italic;
-    color: aliceblue;
-
-}
 #cimP{
     color: white;
     text-align: left;
@@ -38,8 +30,7 @@
     top: 0;
     right: 0;
     float: right;
-    margin-top: 2.5%;
-    margin-right: 2.5%;
+    z-index: -1;
 }
 #cimPu{
     color: white;
@@ -93,7 +84,7 @@
 .puZenekarszekcio{
     display: grid;
     grid-template-columns: 50% 50%;
-    
+    color: white;
 }
 .puBaloszlop, .puJobboszlop{
     display: grid;

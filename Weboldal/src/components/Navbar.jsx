@@ -90,7 +90,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('rock')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('rock')} to={"/Rockvalaszto"}>
                     <MdOutlineSpeakerGroup className='bogyosize' /> Rock <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alrock ${openDropdown === 'rock' ? 'show' : 'hide'}`}>
@@ -105,7 +105,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('punk')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('punk')} to={"/Punkvalaszto"}>
                     <FaCompactDisc className='bogyosize' /> Punk <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alpunk ${openDropdown === 'punk' ? 'show' : 'hide'}`}>
@@ -176,7 +176,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('rock')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('rock')} to={"/Rockvalaszto"}>
                     <MdOutlineSpeakerGroup className='bogyosize' /> Rock <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alrock ${openDropdown === 'rock' ? 'show' : 'hide'}`}>
@@ -191,7 +191,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('punk')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('punk')} to={"/Punkvalaszto"}>
                     <FaCompactDisc className='bogyosize' /> Punk <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alpunk ${openDropdown === 'punk' ? 'show' : 'hide'}`}>

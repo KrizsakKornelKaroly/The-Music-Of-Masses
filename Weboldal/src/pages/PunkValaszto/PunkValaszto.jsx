@@ -39,11 +39,10 @@ const Punkvalaszto = () => {
     <Navbar />
       <main className="mainPunk">
         <div className="cimSzovegP">
-          <h1 id="cimP">Metal stílus</h1>
-          <p id="szovegP">Kemény erős nőket szeretem. Amíg le tudom győzni őket szaknderben, nincs gond.</p>
-          <span id="alkotoP">James Hetfield</span>
+          <h1 id="cimP">Punk stílus</h1>
+          <p id="szovegP">A punk olyan, mint a lángoló lázadás: ösztönös, szabályok nélküli robbanás, mely átlépi a határokat és megrengeti a társadalmi normákat.</p>
         </div>
-        <img src="./public/JamesHetfield.png" id="kepP" />
+        <img src="/punkfiatal.png" id="kepP" />
         <h1 id="cimPu">Alstílus</h1>
         <Carousel
             swipeable={false}
@@ -61,9 +60,9 @@ const Punkvalaszto = () => {
             itemClass="carousel-item-padding-40-px"
             className="testcarouselPu"
           >
-            <p className="kepPunk"><img className="kepCarouselPunk" src="/HeavyM.png" alt="Heavy Metal" title="Heavy Metal" /><br />Heavy Metal</p>
-            <p className="kepPunk"><img className="kepCarouselPunk" src="/ThrashM.png" alt="Thrash Metal" title="Thrash Metal"/><br />Thrash Metal</p>
-            <p className="kepPunk"><img className="kepCarouselPunk" src="/GothicM.png" alt="Gothic Metal" title="Gothic Metal" /><br />Gothic Metal</p>
+            <p className="kepPunk"><img className="kepCarouselPunk" src="/deathPunk.png" alt="Death Punk" title="Death Punk" /><br />Death Punk</p>
+            <p className="kepPunk"><img className="kepCarouselPunk" src="/gothicPunk.png" alt="Gothic Punk" title="Gothic Punk"/><br />Gothic Punk</p>
+            <p className="kepPunk"><img className="kepCarouselPunk" src="/FolkPunk.png" alt="Folk Punk" title="Folk Punk" /><br />Folk Punk</p>
         </Carousel>
           
          
@@ -71,31 +70,31 @@ const Punkvalaszto = () => {
         <div className="puBaloszlop">
             <h3 className="puKulfkepvis">Külföldi zenekarok</h3>
             <div className="puCsikok">
-                <p className="puIkonKor"><img src="/metalicaLogo.png" alt="" className="puIkon"/></p>
-                <p className="puZNev">Metallica</p>
-                <p className="puZaszloFo"><img src="/usaFlag.png" alt="" className="puZaszlo"/></p>
-                <p className="puEvszam">1981</p>
+                <p className="puIkonKor"><img src="/blackflagLogo.png" alt="" className="puIkon"/></p>
+                <p className="puZNev">Black Flag</p>
+                <p className="puZaszloFo"><img src="/svedFlag.png" alt="" className="puZaszlo"/></p>
+                <p className="puEvszam">1976</p>
             </div>
             <div className="puCsikok">
-                <p className="puIkonKor"><img src="/sabatonLogo.png" alt="" className="puIkon"/></p>
-                <p className="puZNev">Sabaton</p>
-                <p className="puZaszloFo"><img src="/svedFlag.png" alt="" className="puZaszlo"/></p>
-                <p className="puEvszam">1999</p>
+                <p className="puIkonKor"><img src="/theExploitedLogo.png" alt="" className="puIkon"/></p>
+                <p className="puZNev">The Exploited</p>
+                <p className="puZaszloFo"><img src="/norwayFlag.png" alt="" className="puZaszlo"/></p>
+                <p className="puEvszam">1978</p>
             </div>
         </div>
         <div className="puJobboszlop">
         <h3 className="puBelfkepvis">Belföldi zenekarok</h3>
             <div className="puCsikok">
-                <p className="puIkonKor"><img src="wisdomLogo.png" alt="" className="puIkon"/></p>
-                <p className="puZNev">Wisdom</p>
+                <p className="puIkonKor"><img src="ElitosztagLogo.png" alt="" className="puIkon"/></p>
+                <p className="puZNev">Elit Osztag</p>
                 <p className="puZaszloFo"><img src="/magyarFlag.png" alt="" className="puZaszlo"/></p>
-                <p className="puEvszam">2000</p>
+                <p className="puEvszam">1984</p>
             </div>
             <div className="puCsikok">
-                <p className="puIkonKor"><img src="/pokolgepLogo.png" alt="" className="puIkon"/></p>
-                <p className="puZNev">Pokolgép</p>
+                <p className="puIkonKor"><img src="/kgbLogo.png" alt="" className="puIkon"/></p>
+                <p className="puZNev">KGB</p>
                 <p className="puZaszloFo"><img src="/magyarFlag.png" alt="" className="puZaszlo"/></p>
-                <p className="puEvszam">1980</p>
+                <p className="puEvszam">1976</p>
             </div>
             
         </div>
