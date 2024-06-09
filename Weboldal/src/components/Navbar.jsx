@@ -110,7 +110,7 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`alpunk ${openDropdown === 'punk' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> Deathpunk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/deathpunk"}> <TbBell /> Deathpunk</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Gothic punk</NavLink ></li>
                         <li><NavLink className='linkek' to={"/folkpunk"}> <TbBell /> Folk punk</NavLink ></li>
                     </ul>
@@ -196,7 +196,7 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`alpunk ${openDropdown === 'punk' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> Deathpunk</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/deathpunk"}> <TbBell /> Deathpunk</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Gothic punk</NavLink ></li>
                         <li><NavLink className='linkek' to={"/folkpunk"}> <TbBell /> Folk punk</NavLink ></li>
                     </ul>

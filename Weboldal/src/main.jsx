@@ -15,7 +15,9 @@ import Rock_Indie from './pages/Rock_Indie/Rock_Indie';
 import Folk_Punk from './pages/Punk_Folk/Punk_Folk';
 import Rolunk from './pages/Rolunk/Rolunk';
 import Rock_Modern from './pages/Rock_Modern/Rock_Modern';
+import Death_Punk from './pages/Punk_Death/Punk_Death';
 import './App.css';
+import Punk_Death from './pages/Punk_Death/Punk_Death';
 
 const router = createBrowserRouter([
   {
@@ -73,6 +75,10 @@ const router = createBrowserRouter([
   {
     path: '/modernrock',
     element: <Rock_Modern />
+  },
+  {
+    path: '/deathpunk',
+    element: <Punk_Death />
   },
 ]);
 
