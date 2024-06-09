@@ -83,7 +83,7 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> Bepop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/jazzbepop"}> <TbBell /> Bepop</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Smooth jazz</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Swing</NavLink ></li>
@@ -169,7 +169,7 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`aljazz ${openDropdown === 'jazz' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBell /> Bepop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/jazzbepop"}> <TbBell /> Bepop</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Boogie-woogie</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Smooth jazz</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Swing</NavLink ></li>
