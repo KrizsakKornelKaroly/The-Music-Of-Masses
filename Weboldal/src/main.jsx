@@ -19,6 +19,10 @@ import Rolunk from './pages/Rolunk/Rolunk';
 import Rock_Modern from './pages/Rock_Modern/Rock_Modern';
 import Punk_Death from './pages/Punk_Death/Punk_Death';
 import Punk_Gothic from './pages/Punk_Gothic/Punk_Gothic';
+import Pop_Schlager from './pages/Pop_Schlager/Pop_Schlager';
+import Pop_Eurobeat from './pages/Pop_Eurobeat/Pop_Eurobeat';
+import Pop_Lofi from './pages/Pop_Lofi/Pop_Lofi';
+import Jazz_Bepop from './pages/Jazz_Bepop/Jazz_Bepop';
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
 import Metal_Death from './pages/Metal_Death/Metal_Death';
@@ -104,7 +108,23 @@ const router = createBrowserRouter([
   {
     path:'/deathmetal',
     element: <Metal_Death />,
-  }
+  },
+  {
+    path: '/popschlager',
+    element: <Pop_Schlager />,
+  },
+  {
+    path: '/popeurobeat',
+    element: <Pop_Eurobeat />,
+  },
+  {
+    path: '/poplofi',
+    element: <Pop_Lofi />,
+  },
+  {
+    path: '/jazzbepop',
+    element: <Jazz_Bepop />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
