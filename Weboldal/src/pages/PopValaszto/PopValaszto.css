@@ -1,0 +1,15 @@
+.cimSzovegF{
+    width: 60%;
+}
+#kepF{
+    width: 30%;
+}
+
+@media screen and (max-width: 1100px) {
+    #kepF{
+        display: none !important;
+    }
+    .cimSzovegF{
+        width: 80%;
+    }
+}

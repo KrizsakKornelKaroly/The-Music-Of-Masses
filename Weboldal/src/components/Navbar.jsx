@@ -65,7 +65,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('pop')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('pop')} to={"/Popvalaszto"}>
                     <FaRecordVinyl className='bogyosize' /> Pop <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alpop ${openDropdown === 'pop' ? 'show' : 'hide'}`}>
@@ -152,7 +152,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <NavLink className='linkek' onClick={() => toggleDropdown('pop')}>
+                <NavLink className='linkek' onClick={() => toggleDropdown('pop')} to={"/Popvalaszto"}>
                     <FaRecordVinyl className='bogyosize' /> Pop <button><FaArrowRight /></button>
                 </NavLink >
                 <div className={`alpop ${openDropdown === 'pop' ? 'show' : 'hide'}`}>

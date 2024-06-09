@@ -35,6 +35,7 @@ import Metal_Power from './pages/Metal_Power/Metal_Power';
 import Metal_Symphonic from './pages/Metal_Symphonic/Metal_Symphonic';
 import Folk_Magyar from './pages/Folk_Magyar/Folk_Magyar';
 import Folk_Skandinav from './pages/Folk_Skandinav/Folk_Skandinav';
+import PopValaszto from './pages/PopValaszto/PopValaszto';
 
 
 
@@ -170,6 +171,10 @@ const router = createBrowserRouter([
   {
     path: '/skandinavfolk',
     element: <Folk_Skandinav />
+  },
+  {
+    path: '/popvalaszto',
+    element: <PopValaszto />
   }
 ]);
 
