@@ -13,6 +13,7 @@ import Hard_Rock from './pages/Rock_Hard/Rock_Hard';
 import Rock_Roll from './pages/Rock_Roll/Rock_Roll';
 import Rock_Indie from './pages/Rock_Indie/Rock_Indie';
 import Folk_Punk from './pages/Punk_Folk/Punk_Folk';
+import Rock_Punk from './pages/Rock_Punk/Rock_Punk';
 import Rolunk from './pages/Rolunk/Rolunk';
 import Rock_Modern from './pages/Rock_Modern/Rock_Modern';
 import './App.css';
@@ -73,6 +74,10 @@ const router = createBrowserRouter([
   {
     path: '/modernrock',
     element: <Rock_Modern />
+  },
+  {
+    path: '/punkrock',
+    element: <Rock_Punk />
   },
 ]);
 
