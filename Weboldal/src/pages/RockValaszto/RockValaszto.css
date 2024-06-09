@@ -1,0 +1,138 @@
+.mainRock{
+    width: calc(100% - 350px);
+    float: right;
+
+}
+.cimSzovegR{
+    width: 30%;
+    background-color: #262D4760; 
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+#alkotoR{
+    text-align: end;
+    display: block;
+    align-items: end;
+    font-style: italic;
+    color: aliceblue;
+
+}
+#cimR{
+    color: white;
+    text-align: left;
+    margin-left: 2%;
+}
+#szovegR{
+    text-align: left;
+    margin-left: 2.5%;
+    color: darkgrey;
+}
+#kepR{
+
+    width: 30vw;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    z-index: -1;
+}
+#cimRo{
+    color: white;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.testcarouselRock{
+
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    color: black;
+}
+.jobboldalValaszto{
+    align-content: end;
+}
+
+.kepCarouselRock{
+    width: 150px;
+    height: 150px;
+}
+
+.roCsikok{
+    background-color: #262D47;
+    display: block;
+    margin: 20px;
+    border-radius: 50px;
+    width: 90%;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.roIkon{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+}
+.roZaszlo{
+    width: 35px;
+}
+.roZaszloFo, .roEvszam, .roZNev, .roIkonKor{
+    display: inline;
+    margin-left: 2%;
+}
+.roEvszam{
+    float: right;
+    margin-bottom: 0px;
+    font-size: larger;
+    top: 50%;
+}
+.roZenekarszekcio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.roBaloszlop, .roJobboszlop{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+.kepRock{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+@media only screen and (max-width:1100px) {
+    .mainRock{
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+    #kepR{
+        display: none;
+    }
+    .cimSzovegR{
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width:750px) {
+    .roZenekarszekcio{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width:400px) {
+    .kepCarouselRock{
+        margin-left: 25%;
+    }
+}

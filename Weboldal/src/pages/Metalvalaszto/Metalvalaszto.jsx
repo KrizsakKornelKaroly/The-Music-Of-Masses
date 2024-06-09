@@ -25,6 +25,11 @@ const responsive = {
     breakpoint: { max: 600, min: 0 },
     items: 2,
     slidesToSlide: 1 
+  },
+  mobile3: {
+    breakpoint: { max: 400, min: 0 },
+    items: 1,
+    slidesToSlide: 1,
   }
 };
 
@@ -43,7 +48,7 @@ const Metalvalaszto = () => {
         <Carousel
             swipeable={false}
             draggable={false}
-            showDots={true}
+            showDots={false}
             responsive={responsive}
             infinite={true}
             autoPlaySpeed={100}
@@ -51,17 +56,17 @@ const Metalvalaszto = () => {
             customTransition="all .5"
             transitionDuration={500}
             containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
+            removeArrowOnDeviceType={["desktop"]}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
             className="testcarousel"
           >
-            <img className="kepCarouselMetal" src="/HeavyM.png" alt="Heavy Metal" title="Heavy Metal" />
-            <img className="kepCarouselMetal" src="/ThrashM.png" alt="Thrash Metal" title="Thrash Metal"/>
-            <img className="kepCarouselMetal" src="/GothicM.png" alt="Gothic Metal" title="Gothic Metal" />
-            <img className="kepCarouselMetal" src="/DeathM.png" alt="Death Metal" title="Death Metal" />
-            <img className="kepCarouselMetal" src="/PowerM.png" alt="Power Metal" title="Power Metal" />
-            <img className="kepCarouselMetal" src="SymphonicM.png" alt="Symphonic Metal" title="Symphonic Metal" />
+            <p className="kepMe"><img className="kepCarouselMetal" src="/HeavyM.png" alt="Heavy Metal" title="Heavy Metal" /><br />Heavy Metal</p>
+            <p className="kepMe"><img className="kepCarouselMetal" src="/ThrashM.png" alt="Thrash Metal" title="Thrash Metal"/><br />Thrash Metal</p>
+            <p className="kepMe"><img className="kepCarouselMetal" src="/GothicM.png" alt="Gothic Metal" title="Gothic Metal" /><br />Gothic Metal</p>
+            <p className="kepMe"><img className="kepCarouselMetal" src="/DeathM.png" alt="Death Metal" title="Death Metal" /><br />Death Metal</p>
+            <p className="kepMe"><img className="kepCarouselMetal" src="/PowerM.png" alt="Power Metal" title="Power Metal" /><br />Power Metal</p>
+            <p className="kepMe"><img className="kepCarouselMetal" src="SymphonicM.png" alt="Symphonic Metal" title="Symphonic Metal" /><br />Symphonic Metal</p>
         </Carousel>
           
          
