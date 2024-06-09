@@ -21,6 +21,7 @@ import Punk_Death from './pages/Punk_Death/Punk_Death';
 import Punk_Gothic from './pages/Punk_Gothic/Punk_Gothic';
 import Pop_Schlager from './pages/Pop_Schlager/Pop_Schlager';
 import './App.css';
+import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
 
 
 const router = createBrowserRouter([
@@ -91,6 +92,10 @@ const router = createBrowserRouter([
   {
     path: '/thrashmetal',
     element: <Metal_Thrash />,
+  },
+  {
+    path:'/gothicmetal',
+    element: <Metal_Gothic />,
   },
   {
     path: '/gothicpunk',
