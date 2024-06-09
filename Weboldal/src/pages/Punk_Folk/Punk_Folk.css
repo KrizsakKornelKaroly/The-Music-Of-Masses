@@ -1,15 +1,15 @@
-.mainkp{
+.mainpf{
     width: calc(100% - 350px);
     color: white;
     float: right;
 }
 
-.kpCim{
+.pfCim{
     color: white;
     text-align: center !important;
     margin: 15px;
 }
-.kpLeiras{
+.pfLeiras{
     background-color: #262D4760;
     margin: 2%;
     border-radius: 15px;
@@ -17,7 +17,7 @@
     font-size: xx-large;
     padding: 2%;
 }
-.kpCsikok{
+.pfCsikok{
     background-color: #262D47;
     display: block;
     margin: 20px;
@@ -27,61 +27,61 @@
     font-size: larger;
     font-weight: bold;
 }
-.kpIkon{
+.pfIkon{
     display: inline;
     width: 40px;
     height: 40px;
     border-radius: 100%;
     background-color: white;
 }
-.kpZaszlo{
+.pfZaszlo{
     width: 35px;
 }
-.kpZaszloFo, .kpEvszam, .kpZNev, .kpIkonKor{
+.pfZaszloFo, .pfEvszam, .pfZNev, .pfIkonKor{
     display: inline;
     margin-left: 2%;
 }
-.kpEvszam{
+.pfEvszam{
     float: right;
     margin-bottom: 0px;
     font-size: larger;
     top: 50%;
 }
-.kpZenekarszekcio{
+.pfZenekarszekcio{
     display: grid;
     grid-template-columns: 50% 50%;
     
 }
-.kpBaloszlop, .kpJobboszlop{
+.pfBaloszlop, .pfJobboszlop{
     display: grid;
     justify-items: center;
     width: 100%;
 }
-.kpCarouselalap{
+.pfCarouselalap{
     background-color: #262D4760;
     width: 80%;
     margin: 0 auto;
     margin-bottom: 80px;
     margin-top: 50px;
 }
-.kpCarousel{
+.pfCarousel{
     width: 80%;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1100px)
 {
-    .mainkp{
+    .mainpf{
         width: 100%;
     }
 }
 @media screen and (max-width: 800px)
 {
-    .kpZenekarszekcio{
+    .pfZenekarszekcio{
         display: grid;
         grid-template-columns: auto;
     }
 }
-.kpCarouselKep{
+.pfCarouselKep{
     width: 100%;
 }
