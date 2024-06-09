@@ -26,6 +26,7 @@ import Jazz_Bepop from './pages/Jazz_Bepop/Jazz_Bepop';
 import Jazz_Boogie from './pages/Jazz_Boogie/Jazz_Boogie';
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
+import Metal_Death from './pages/Metal_Death/Metal_Death';
 
 
 const router = createBrowserRouter([
@@ -104,6 +105,10 @@ const router = createBrowserRouter([
   {
     path: '/gothicpunk',
     element: <Punk_Gothic />,
+  },
+  {
+    path:'/deathmetal',
+    element: <Metal_Death />,
   },
   {
     path: '/popschlager',
