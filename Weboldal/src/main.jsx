@@ -27,6 +27,7 @@ import Jazz_Boogie from './pages/Jazz_Boogie/Jazz_Boogie';
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
 import Metal_Death from './pages/Metal_Death/Metal_Death';
+import Jazz_Smooth from './pages/Jazz_Smooth/Jazz_Smooth';
 
 
 const router = createBrowserRouter([
@@ -129,6 +130,10 @@ const router = createBrowserRouter([
   {
     path: '/jazzboogie',
     element: <Jazz_Boogie />,
+  },
+  {
+    path: '/jazzsmooth',
+    element: <Jazz_Smooth />,
   },
 ]);
 
