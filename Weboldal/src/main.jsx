@@ -7,6 +7,7 @@ import Kpop from './pages/Pop_Kpop/Kpop';
 import Metal_Heavy from './pages/Metal_Heavy/Metal_Heavy';
 import Rockvalaszto from './pages/RockValaszto/RockValaszto';
 import Punkvalaszto from './pages/PunkValaszto/PunkValaszto';
+import Classic_Rock from './pages/Rock_Classic/Rock_Classic';
 import './App.css';
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: '/punkvalaszto',
     element: <Punkvalaszto />
+  },
+  {
+    path: '/classicrock',
+    element: <Classic_Rock />
   }
 ]);
 

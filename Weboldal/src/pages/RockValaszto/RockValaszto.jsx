@@ -60,7 +60,7 @@ const Rockvalaszto = () => {
             itemClass="carousel-item-padding-40-px"
             className="testcarouselRock"
           >
-            <p className="kepRock"><img className="kepCarouselRock" src="/rockRoll.png" alt="Rock & Roll" title="Heavy Metal" /><br />Heavy Metal </p>
+            <p className="kepRock"><img className="kepCarouselRock" src="/rockRoll.png" alt="Rock & Roll" title="Heavy Metal" /><br />Rock and Roll </p>
             <p className="kepRock"><img className="kepCarouselRock" src="/HardRock.png" alt="Hard Rock" title="Hard Rock"/><br />Hard Rock </p>
             <p className="kepRock"><img className="kepCarouselRock" src="/ClassicRock.png" alt="Classic Rock" title="Classic Rock" /><br />Classic Rock </p>
             <p className="kepRock"><img className="kepCarouselRock" src="/FolkRock.png" alt="Folk Rock" title="Folk Rock" /><br />Folk Rock </p>
