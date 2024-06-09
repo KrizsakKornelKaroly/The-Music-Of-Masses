@@ -21,6 +21,7 @@ import Punk_Death from './pages/Punk_Death/Punk_Death';
 import Punk_Gothic from './pages/Punk_Gothic/Punk_Gothic';
 import Pop_Schlager from './pages/Pop_Schlager/Pop_Schlager';
 import Pop_Eurobeat from './pages/Pop_Eurobeat/Pop_Eurobeat';
+import Pop_Lofi from './pages/Pop_Lofi/Pop_Lofi';
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
 
@@ -109,6 +110,10 @@ const router = createBrowserRouter([
   {
     path: '/popeurobeat',
     element: <Pop_Eurobeat />,
+  },
+  {
+    path: '/poplofi',
+    element: <Pop_Lofi />,
   },
 ]);
 

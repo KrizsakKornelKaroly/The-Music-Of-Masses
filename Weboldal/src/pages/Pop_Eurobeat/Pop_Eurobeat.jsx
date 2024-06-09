@@ -44,7 +44,7 @@ const Pop_Eurobeat = () => {
                         </div>
                     </div>
                 </div>
-                <h1 className="popeuCim">Koncertképek</h1>
+                <h1 className="popeuCim">Galéria</h1>
                 <p className="popeuCarouselalap">
                     <Carousel className="popeuCarousel">
                         <Carousel.Item >
