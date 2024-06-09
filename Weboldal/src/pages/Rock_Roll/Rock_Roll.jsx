@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import "./Rock_Roll.css"
 import Carousel from 'react-bootstrap/Carousel';
 
-const Rock_Hard = () => {
+const Rock_Roll = () => {
     return (
         <>
             <Navbar />
@@ -98,4 +98,4 @@ const Rock_Hard = () => {
     )
 }
 
-export default Rock_Hard
+export default Rock_Roll
