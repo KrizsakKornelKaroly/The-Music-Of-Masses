@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import "./Rock_Classic.css"
 import Carousel from 'react-bootstrap/Carousel';
 
-const Metal_Heavy = () => {
+const Classic_Rock = () => {
     return (
         <>
             <Navbar />
@@ -98,4 +98,4 @@ const Metal_Heavy = () => {
     )
 }
 
-export default Metal_Heavy
+export default Classic_Rock
