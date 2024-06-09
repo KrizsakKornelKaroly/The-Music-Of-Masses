@@ -65,7 +65,39 @@ const Metalvalaszto = () => {
         </Carousel>
           
          
-        
+        <div className="meZenekarszekcio">
+        <div className="meBaloszlop">
+            <h3 className="meKulfkepvis">Külföldi zenekarok</h3>
+            <div className="meCsikok">
+                <p className="meIkonKor"><img src="/metalicaLogo.png" alt="" className="meIkon"/></p>
+                <p className="meZNev">Metallica</p>
+                <p className="meZaszloFo"><img src="/usaFlag.png" alt="" className="meZaszlo"/></p>
+                <p className="meEvszam">1981</p>
+            </div>
+            <div className="meCsikok">
+                <p className="meIkonKor"><img src="/sabatonLogo.png" alt="" className="meIkon"/></p>
+                <p className="meZNev">Sabaton</p>
+                <p className="meZaszloFo"><img src="/svedFlag.png" alt="" className="meZaszlo"/></p>
+                <p className="meEvszam">1999</p>
+            </div>
+        </div>
+        <div className="meJobboszlop">
+        <h3 className="meBelfkepvis">Belföldi zenekarok</h3>
+            <div className="meCsikok">
+                <p className="meIkonKor"><img src="wisdomLogo.png" alt="" className="meIkon"/></p>
+                <p className="meZNev">Wisdom</p>
+                <p className="meZaszloFo"><img src="/magyarFlag.png" alt="" className="meZaszlo"/></p>
+                <p className="meEvszam">2000</p>
+            </div>
+            <div className="meCsikok">
+                <p className="meIkonKor"><img src="/pokolgepLogo.png" alt="" className="meIkon"/></p>
+                <p className="meZNev">Pokolgép</p>
+                <p className="meZaszloFo"><img src="/magyarFlag.png" alt="" className="meZaszlo"/></p>
+                <p className="meEvszam">1980</p>
+            </div>
+            
+        </div>
+        </div>
       </main>
 
     </>
