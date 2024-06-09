@@ -49,27 +49,9 @@
     margin-top: 5%;
     margin-bottom: 2%;
 }
-.ZenekarElrendezesM{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 20px;
-    margin-top: 30px;
-}
-.h1ZE{
-    color: white;
-}
-.zenekarok{
-    background-color: #262D4760;
-    display: inline;
-    width: 20%;
-    height: 50px;
-    margin: 20px;
-    border-radius: 30px;
-    color: white; 
-}
 .testcarousel{
 
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     height: 200px;
     color: black;
@@ -122,7 +104,12 @@
     justify-items: center;
     width: 100%;
 }
-
+.kepMe{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
 @media only screen and (max-width:1100px) {
     .mainMetal{
         display: block;
@@ -144,3 +131,4 @@
         grid-template-columns: auto;
     }
 }
+

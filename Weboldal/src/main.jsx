@@ -5,6 +5,7 @@ import App from './App';
 import Metalvalaszto from './pages/Metalvalaszto/Metalvalaszto';
 import Kpop from './pages/Pop_Kpop/Kpop';
 import Metal_Heavy from './pages/Metal_Heavy/Metal_Heavy';
+import Rockvalaszto from './pages/RockValaszto/RockValaszto';
 import './App.css';
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/heavymetal',
     element: <Metal_Heavy />
+  },
+  {
+    path: '/rockvalaszto',
+    element: <Rockvalaszto />
   }
 ]);
 
