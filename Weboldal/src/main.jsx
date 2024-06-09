@@ -11,7 +11,8 @@ import Classic_Rock from './pages/Rock_Classic/Rock_Classic';
 import Folk_Rock from './pages/Rock_Folk/Rock_Folk';
 import Hard_Rock from './pages/Rock_Hard/Rock_Hard';
 import Rock_Roll from './pages/Rock_Roll/Rock_Roll';
-import Folk_Punk from './pages/Punk_Folk/Punk_Folk'
+import Rock_Indie from './pages/Rock_Indie/Rock_Indie';
+import Folk_Punk from './pages/Punk_Folk/Punk_Folk';
 import Rolunk from './pages/Rolunk/Rolunk';
 import './App.css';
 
@@ -39,7 +40,35 @@ const router = createBrowserRouter([
   {
     path: '/punkvalaszto',
     element: <Punkvalaszto />
-  }
+  },
+  {
+    path: '/classicrock',
+    element: <Classic_Rock />
+  },
+  {
+    path: '/folkrock',
+    element: <Folk_Rock />
+  },
+  {
+    path: '/hardrock',
+    element: <Hard_Rock />
+  },
+  {
+    path: '/rockroll',
+    element: <Rock_Roll />
+  },
+  {
+    path: '/folkpunk',
+    element: <Folk_Punk />
+  },
+  {
+    path: '/rolunk',
+    element: <Rolunk />
+  },
+  {
+    path: '/indierock',
+    element: <Rock_Indie />
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
