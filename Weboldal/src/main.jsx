@@ -5,6 +5,7 @@ import App from './App';
 import Metalvalaszto from './pages/Metalvalaszto/Metalvalaszto';
 import Kpop from './pages/Pop_Kpop/Kpop';
 import Metal_Heavy from './pages/Metal_Heavy/Metal_Heavy';
+import Metal_Thrash from './pages/Metal_Thrash/Metal_Thrash';
 import Rockvalaszto from './pages/RockValaszto/RockValaszto';
 import Punkvalaszto from './pages/PunkValaszto/PunkValaszto';
 import Classic_Rock from './pages/Rock_Classic/Rock_Classic';
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
     path: '/indierock',
     element: <Rock_Indie />
   },
+  {
+    path: '/thrashmetal',
+    element: <Metal_Thrash />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
