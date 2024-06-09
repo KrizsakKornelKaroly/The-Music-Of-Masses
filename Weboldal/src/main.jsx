@@ -9,6 +9,7 @@ import Rockvalaszto from './pages/RockValaszto/RockValaszto';
 import Punkvalaszto from './pages/PunkValaszto/PunkValaszto';
 import Classic_Rock from './pages/Rock_Classic/Rock_Classic';
 import Folk_Rock from './pages/Rock_Folk/Rock_Folk';
+import Hard_Rock from './pages/Rock_Hard/Rock_Hard';
 import './App.css';
 
 const router = createBrowserRouter([
@@ -43,7 +44,11 @@ const router = createBrowserRouter([
   {
     path: '/folkrock',
     element: <Folk_Rock />
-  }
+  },
+  {
+    path: '/hardrock',
+    element: <Hard_Rock />
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
