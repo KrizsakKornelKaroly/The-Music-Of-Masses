@@ -74,7 +74,7 @@ const Navbar = () => {
                         <li><NavLink className='linkek'  to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Eurobeat</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Lo-Fi</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Schlager pop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/popschlager"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
                     </ul>
                 </div>
 
@@ -160,7 +160,7 @@ const Navbar = () => {
                         <li><NavLink className='linkek' to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Eurobeat</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Lo-Fi</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Schlager pop</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/popschlager"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
                     </ul>
                 </div>
 

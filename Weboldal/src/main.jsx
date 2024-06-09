@@ -19,6 +19,7 @@ import Rolunk from './pages/Rolunk/Rolunk';
 import Rock_Modern from './pages/Rock_Modern/Rock_Modern';
 import Punk_Death from './pages/Punk_Death/Punk_Death';
 import Punk_Gothic from './pages/Punk_Gothic/Punk_Gothic';
+import Pop_Schlager from './pages/Pop_Schlager/Pop_Schlager';
 import './App.css';
 
 
@@ -94,6 +95,10 @@ const router = createBrowserRouter([
   {
     path: '/gothicpunk',
     element: <Punk_Gothic />,
+  },
+  {
+    path: '/popschlager',
+    element: <Pop_Schlager />,
   },
 ]);
 
