@@ -11,7 +11,7 @@
     height: 100vh;
     position: fixed;
     /*background-color: #262D4720;*/
-    background-image: url(osszeshatter.png);
+    background-image: url(./../../public/osszeshatter.png);
     box-shadow: inset 0 0 0 1000px rgba(38, 45, 71, 0.9);
 }
 .lenyilogenyo{
