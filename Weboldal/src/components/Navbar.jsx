@@ -97,7 +97,7 @@ const Navbar = () => {
                     <ul>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Modern rock</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Punk rock</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Indie rock</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/indierock"}> <TbBellExclamation /> Indie rock</NavLink ></li>
                         <li><NavLink className='linkek'  to={"/classicrock"}> <TbBell /> Classic rock</NavLink ></li>
                         <li><NavLink className='linkek'  to={"/folkrock"}> <TbBellExclamation /> Folk rock</NavLink ></li>
                         <li><NavLink className='linkek'  to={"/rockroll"}> <TbBell /> Rock & Roll</NavLink ></li>
@@ -117,7 +117,7 @@ const Navbar = () => {
                 </div>
 
                 <h3 className='cim'>Egyéb oldalak</h3>
-                <NavLink className='linkek'> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >
+                <NavLink className='linkek' to={"/rolunk"}> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >
                 </Offcanvas.Body>
             </Offcanvas>
             
@@ -183,7 +183,7 @@ const Navbar = () => {
                     <ul>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Modern rock</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Punk rock</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Indie rock</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/indierock"}> <TbBellExclamation /> Indie rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/classicrock"}> <TbBell /> Classic rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/folkrock"}> <TbBellExclamation /> Folk rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/rockroll"}> <TbBell /> Rock & Roll</NavLink ></li>
@@ -203,7 +203,7 @@ const Navbar = () => {
                 </div>
 
                 <h3 className='cim'>Egyéb oldalak</h3>
-                <NavLink className='linkek'> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >
+                <NavLink className='linkek' to={"/rolunk"}> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >
             </Nav>
         </>
     )
