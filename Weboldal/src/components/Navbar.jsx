@@ -116,8 +116,8 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <h3 className='cim'>Egyéb oldalak</h3>
-                <NavLink className='linkek' to={"/rolunk"}> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >
+                {/*<h3 className='cim'>Egyéb oldalak</h3>
+                <NavLink className='linkek' to={"/rolunk"}> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >*/}
                 </Offcanvas.Body>
             </Offcanvas>
             
@@ -201,9 +201,9 @@ const Navbar = () => {
                         <li><NavLink className='linkek' to={"/folkpunk"}> <TbBell /> Folk punk</NavLink ></li>
                     </ul>
                 </div>
-
+                {/*
                 <h3 className='cim'>Egyéb oldalak</h3>
-                <NavLink className='linkek' to={"/rolunk"}> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >
+                <NavLink className='linkek' to={"/rolunk"}> <FaPeopleGroup className='bogyosize' /> Rólunk</NavLink >*/}
             </Nav>
         </>
     )

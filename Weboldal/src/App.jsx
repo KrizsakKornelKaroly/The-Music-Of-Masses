@@ -34,7 +34,7 @@ function App() {
             </Nav>
         </div>
         <div className='szekcio'>
-          <img src="../public/TMOM_Logo.png" id="Kep" alt="" />
+          <img src="/TMOM_Logo.png" id="Kep" alt="" />
         </div>
       </main>
     </>
