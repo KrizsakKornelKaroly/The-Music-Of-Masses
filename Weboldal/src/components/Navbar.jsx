@@ -100,7 +100,7 @@ const Navbar = () => {
                         <li><NavLink className='linkek'> <TbBellExclamation /> Indie rock</NavLink ></li>
                         <li><NavLink className='linkek'  to={"/classicrock"}> <TbBell /> Classic rock</NavLink ></li>
                         <li><NavLink className='linkek'  to={"/folkrock"}> <TbBellExclamation /> Folk rock</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Rock & Roll</NavLink ></li>
+                        <li><NavLink className='linkek'  to={"/rockroll"}> <TbBell /> Rock & Roll</NavLink ></li>
                         <li><NavLink className='linkek' to={"/hardrock"}> <TbBellExclamation /> Hard rock</NavLink ></li>
                     </ul>
                 </div>
@@ -186,7 +186,7 @@ const Navbar = () => {
                         <li><NavLink className='linkek'> <TbBellExclamation /> Indie rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/classicrock"}> <TbBell /> Classic rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/folkrock"}> <TbBellExclamation /> Folk rock</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBell /> Rock & Roll</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/rockroll"}> <TbBell /> Rock & Roll</NavLink ></li>
                         <li><NavLink className='linkek' to={"/hardrock"}> <TbBellExclamation /> Hard rock</NavLink ></li>
                     </ul>
                 </div>
