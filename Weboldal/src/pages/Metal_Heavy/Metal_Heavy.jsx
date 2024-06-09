@@ -15,34 +15,61 @@ const Metal_Heavy = () => {
         </div>
 
         <h1 className="hmCim">Képviselőik</h1>
+        <div className="hmZenekarszekcio">
         <div className="hmBaloszlop">
-            <div>
-                <p></p>
-                <p>Black Sabbath</p>
-                <p></p>
-                <p>1968</p>
+            <h3 className="hmKulfkepvis">Külföldi zenekarok</h3>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/BS_logo.png" alt="" className="hmIkon"/></p>
+                <p className="hmZNev">Black Sabbath</p>
+                <p className="hmZaszloFo"><img src="/britFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">1968</p>
             </div>
-            <div>
-                <p></p>
-                <p>Judas Priest</p>
-                <p></p>
-                <p>1969</p>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/JP_logo.png" alt="" className="hmIkon"/></p>
+                <p className="hmZNev">Judas Priest</p>
+                <p className="hmZaszloFo"><img src="/britFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">1969</p>
             </div>
-            <div>
-                <p></p>
-                <p>Motörhead</p>
-                <p></p>
-                <p>1975</p>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/MH_logo.jpg" alt="" className="hmIkon"/></p>
+                <p className="hmZNev">Motörhead</p>
+                <p className="hmZaszloFo"><img src="/britFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">1975</p>
             </div>
-            <div>
-                <p></p>
-                <p>Iron Maiden</p>
-                <p></p>
-                <p>1975</p>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/IM_logo.jpg" alt="" className="hmIkon" /></p>
+                <p className="hmZNev">Iron Maiden</p>
+                <p className="hmZaszloFo"><img src="/britFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">1975</p>
             </div>
         </div>
         <div className="hmJobboszlop">
-
+        <h3 className="hmBelfkepvis">Belföldi zenekarok</h3>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/KP_logo.jpg" alt="" className="hmIkon"/></p>
+                <p className="hmZNev">Kalapács</p>
+                <p className="hmZaszloFo"><img src="/magyarFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">2000</p>
+            </div>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/OM_logo.jpg" alt="" className="hmIkon"/></p>
+                <p className="hmZNev">Omen</p>
+                <p className="hmZaszloFo"><img src="/magyarFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">1990</p>
+            </div>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/MH_logo.jpg" alt="" className="hmIkon"/></p>
+                <p className="hmZNev">Pokolgép</p>
+                <p className="hmZaszloFo"><img src="/magyarFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">1980</p>
+            </div>
+            <div className="hmCsikok">
+                <p className="hmIkonKor"><img src="/IM_logo.jpg" alt="" className="hmIkon" /></p>
+                <p className="hmZNev">Ossian</p>
+                <p className="hmZaszloFo"><img src="/magyarFlag.png" alt="" className="hmZaszlo"/></p>
+                <p className="hmEvszam">1986</p>
+            </div>
+        </div>
         </div>
       </main>
       </>
