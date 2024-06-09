@@ -26,6 +26,7 @@ import Jazz_Bepop from './pages/Jazz_Bepop/Jazz_Bepop';
 import './App.css';
 import Metal_Gothic from './pages/Metal_Gothic/Metal_Gothic';
 import Metal_Death from './pages/Metal_Death/Metal_Death';
+import Metal_Power from './pages/Metal_Power/Metal_Power';
 
 
 const router = createBrowserRouter([
@@ -125,6 +126,10 @@ const router = createBrowserRouter([
     path: '/jazzbepop',
     element: <Jazz_Bepop />,
   },
+  {
+    path: '/powermetal',
+    element: <Metal_Power />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
