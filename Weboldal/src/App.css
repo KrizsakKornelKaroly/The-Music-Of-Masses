@@ -15,20 +15,20 @@ body{
     padding: 10px;
     border-radius: 20px;
 }
-h1, p{
+.h1fo, .bekfo{
   text-align: center;  
 }
-p{
+.bekfo{
     color: #737687;
 }
-h1{
+.h1fo{
     margin-bottom: 5%;
 }
 .grid-cont{
     display: grid;
     grid-template-columns: auto auto;
 }
-main{
+.mainfo{
     display: flex;
     flex-wrap: wrap;
     width: calc(100% - 350px);

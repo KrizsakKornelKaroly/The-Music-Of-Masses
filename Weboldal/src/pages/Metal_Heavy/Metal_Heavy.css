@@ -1,0 +1,20 @@
+main{
+    width: calc(100% - 350px);
+    color: white;
+}
+.hmCim{
+    color: white;
+    text-align: center !important;
+    margin: 15px;
+}
+.mainhm{
+    float: right;
+}
+.hmLeiras{
+    background-color: #262D4760;
+    margin: 2%;
+    border-radius: 15px;
+    height: auto;
+    font-size: xx-large;
+    padding: 2%;
+}
