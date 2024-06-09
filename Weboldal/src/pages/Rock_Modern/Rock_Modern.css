@@ -1,0 +1,86 @@
+.mainrm{
+    width: calc(100% - 350px);
+    color: white;
+    float: right;
+}
+
+.rmCim{
+    color: white;
+    text-align: center !important;
+    margin: 15px;
+}
+.rmLeiras{
+    background-color: #262D4760;
+    margin: 2%;
+    border-radius: 15px;
+    height: auto;
+    font-size: xx-large;
+    padding: 2%;
+}
+.rmCsikok{
+    background-color: #262D47;
+    display: block;
+    margin: 20px;
+    border-radius: 50px;
+    width: 90%;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.rmIkon{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+}
+.rmZaszlo{
+    width: 35px;
+}
+.rmZaszloFo, .rmEvszam, .rmZNev, .rmIkonKor{
+    display: inline;
+    margin-left: 2%;
+}
+.rmEvszam{
+    float: right;
+    margin-bottom: 0px;
+    font-size: larger;
+    top: 50%;
+}
+.rmZenekarszekcio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.rmBaloszlop, .rmJobboszlop{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+.rmCarouselalap{
+    background-color: #262D4760;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.rmCarousel{
+    width: 80%;
+    margin: 0 auto;
+}
+.rmCarouselKep{
+    width: 100%;
+}
+@media screen and (max-width: 1100px)
+{
+    .mainrm{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .rmZenekarszekcio{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

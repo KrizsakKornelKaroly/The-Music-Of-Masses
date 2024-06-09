@@ -95,7 +95,7 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`alrock ${openDropdown === 'rock' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Modern rock</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/modernrock"}> <TbBellExclamation /> Modern rock</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Punk rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/indierock"}> <TbBellExclamation /> Indie rock</NavLink ></li>
                         <li><NavLink className='linkek'  to={"/classicrock"}> <TbBell /> Classic rock</NavLink ></li>
@@ -181,7 +181,7 @@ const Navbar = () => {
                 </NavLink >
                 <div className={`alrock ${openDropdown === 'rock' ? 'show' : 'hide'}`}>
                     <ul>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Modern rock</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/modernrock"}> <TbBellExclamation /> Modern rock</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Punk rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/indierock"}> <TbBellExclamation /> Indie rock</NavLink ></li>
                         <li><NavLink className='linkek' to={"/classicrock"}> <TbBell /> Classic rock</NavLink ></li>
