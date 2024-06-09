@@ -58,7 +58,7 @@ const Navbar = () => {
                     <ul>
                         <li><NavLink className='linkek' to={"/heavymetal"}> <TbBellExclamation /> Heavy metal</NavLink ></li>
                         <li><NavLink className='linkek' to={"/thrashmetal"}> <TbBell /> Thrash metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Gothic metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/gothicmetal"}> <TbBellExclamation /> Gothic metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Death metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Power metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Symphonic metal</NavLink ></li>
@@ -145,7 +145,7 @@ const Navbar = () => {
                     <ul>
                         <li><NavLink className='linkek' to={"/heavymetal"}> <TbBellExclamation /> Heavy metal</NavLink ></li>
                         <li><NavLink className='linkek' to={"/thrashmetal"}> <TbBell /> Thrash metal</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Gothic metal</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/gothicmetal"}> <TbBellExclamation /> Gothic metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Death metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBellExclamation /> Power metal</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Symphonic metal</NavLink ></li>
