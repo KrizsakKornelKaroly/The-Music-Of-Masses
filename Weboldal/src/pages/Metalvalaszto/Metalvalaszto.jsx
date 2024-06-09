@@ -12,14 +12,19 @@ const responsive = {
     slidesToSlide: 3 // optional, default to 1.
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1400, min: 464 },
     items: 4,
     slidesToSlide: 2 // optional, default to 1.
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
+    breakpoint: { max: 800, min: 0 },
+    items: 3,
     slidesToSlide: 1 // optional, default to 1.
+  },
+  mobile2: {
+    breakpoint: { max: 600, min: 0 },
+    items: 2,
+    slidesToSlide: 1 
   }
 };
 
@@ -27,14 +32,13 @@ const Metalvalaszto = () => {
   return (
     <>
     <Navbar />
-      <main>
-        
+      <main className="mainMetal">
         <div className="cimSzoveg">
           <h1 id="cimM">Metal stílus</h1>
           <p id="szovegM">Kemény erős nőket szeretem. Amíg le tudom győzni őket szaknderben, nincs gond.</p>
           <span id="alkotoM">James Hetfield</span>
         </div>
-        <img src="./public/JamesHetfield.png" id="kep" />
+        <img src="./public/JamesHetfield.png" id="kepM" />
         <h1 id="cimMa">Alstílus</h1>
         <Carousel
             swipeable={false}
@@ -52,22 +56,16 @@ const Metalvalaszto = () => {
             itemClass="carousel-item-padding-40-px"
             className="testcarousel"
           >
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-          </Carousel>
+            <img className="kepCarouselMetal" src="/HeavyM.png" alt="Heavy Metal" title="Heavy Metal" />
+            <img className="kepCarouselMetal" src="/ThrashM.png" alt="Thrash Metal" title="Thrash Metal"/>
+            <img className="kepCarouselMetal" src="/GothicM.png" alt="Gothic Metal" title="Gothic Metal" />
+            <img className="kepCarouselMetal" src="/DeathM.png" alt="Death Metal" title="Death Metal" />
+            <img className="kepCarouselMetal" src="/PowerM.png" alt="Power Metal" title="Power Metal" />
+            <img className="kepCarouselMetal" src="SymphonicM.png" alt="Symphonic Metal" title="Symphonic Metal" />
+        </Carousel>
           
-         <div className="ZenekarElrendezes">
-          <h1 className="h1ZE">Külföldi Zenekarok</h1>
-          <h1 className="h1ZE">Belföldi Zenekarok</h1>
-          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
-          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
-          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
-          <div className="zenekarok"><span className="baloldalValaszto"><img src="" alt="" className="zenekarLogokepek"/>Zenekarnév</span><span className="jobboldalValaszto"><img src="" alt="" className="zaszloKepek"/> XXXX</span></div>
-        </div> 
+         
+        
       </main>
 
     </>

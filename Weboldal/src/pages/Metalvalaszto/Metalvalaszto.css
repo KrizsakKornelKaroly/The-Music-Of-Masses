@@ -1,10 +1,13 @@
-main{
+.mainMetal{
     width: calc(100% - 350px);
+    float: right;
+
 }
 .cimSzoveg{
-    width: 450px;
+    width: 30%;
     background-color: #262D4760; 
-    margin-left: 5%;
+    margin-top: 20px;
+    margin-left: 20px;
     font-size: larger;
     padding: 20px;
     border-radius: 20px;
@@ -28,38 +31,68 @@ main{
     margin-left: 2.5%;
     color: darkgrey;
 }
-#kep{
+#kepM{
+
+    width: 41vw;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
     float: right;
-    width: 30vw;
-    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
 }
 #cimMa{
     color: white;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
-.ZenekarElrendezes{
+.ZenekarElrendezesM{
     display: grid;
     grid-template-columns: auto auto;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 .h1ZE{
     color: white;
 }
 .zenekarok{
     background-color: #262D4760;
-    width: 450px;
-    height: 75px;
+    display: inline;
+    width: 20%;
+    height: 50px;
     margin: 20px;
     border-radius: 30px;
     color: white; 
 }
 .testcarousel{
-    background-color: white;
-    width: calc(100% - 350px);
-    margin-left: 50px;
-    height: 80px;
+
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
     color: black;
 }
 .jobboldalValaszto{
     align-content: end;
+}
+.kepCarouselMetal{
+    width: 150px;
+    height: 150px;
+}
+@media only screen and (max-width:1100px) {
+    .mainMetal{
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+    #kepM{
+        display: none;
+    }
+    .cimSzoveg{
+        width: 80%;
+    }
+
 }
