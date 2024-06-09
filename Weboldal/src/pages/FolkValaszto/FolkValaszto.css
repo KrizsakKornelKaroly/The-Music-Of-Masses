@@ -1,0 +1,132 @@
+.mainFolk{
+    width: calc(100% - 350px);
+    float: right;
+
+}
+.cimSzovegF{
+    width: 30%;
+    background-color: #262D4760; 
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 20px;
+    height: 250px;
+}
+#alkotoF{
+    text-align: end;
+    display: block;
+    align-items: end;
+    font-style: italic;
+    color: aliceblue;
+
+}
+#cimF{
+    color: white;
+    text-align: left;
+    margin-left: 2%;
+}
+#szovegF{
+    text-align: left;
+    margin-left: 2.5%;
+    color: darkgrey;
+}  
+#kepF{  
+
+    width: 41vw;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+}
+#cimFo{
+    color: white;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.testcarouselF{
+
+    width: 85%;
+    margin: 0 auto;
+    height: 200px;
+    color: black;
+}
+.kepCarouselFolk{
+    width: 150px;
+    height: 150px;
+}
+
+.foCsikok{
+    background-color: #262D47;
+    display: block;
+    margin: 20px;
+    border-radius: 50px;
+    width: 90%;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.foIkon{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+}
+.foZaszlo{
+    width: 35px;
+}
+.foZaszloFo, .foEvszam, .foZNev, .foIkonKor{
+    display: inline;
+    margin-left: 2%;
+}
+.foEvszam{
+    float: right;
+    margin-bottom: 0px;
+    font-size: larger;
+    top: 50%;
+}
+.foZenekarszekcio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+    
+}
+.foBaloszlop, .foJobboszlop{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+.kepfo{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+@media only screen and (max-width:1100px) {
+    .mainfotal{
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+    #kepM{
+        display: none;
+    }
+    .cimSzoveg{
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width:750px) {
+    .foZenekarszekcio{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
