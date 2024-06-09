@@ -72,7 +72,7 @@ const Navbar = () => {
                 
                     <ul>
                         <li><NavLink className='linkek'  to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Eurobeat</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/popeurobeat"}> <TbBellExclamation /> Eurobeat</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Lo-Fi</NavLink ></li>
                         <li><NavLink className='linkek' to={"/popschlager"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
                     </ul>
@@ -158,7 +158,7 @@ const Navbar = () => {
                 <div className={`alpop ${openDropdown === 'pop' ? 'show' : 'hide'}`}>
                     <ul>
                         <li><NavLink className='linkek' to={"/Kpop"}> <TbBell /> K-pop</NavLink ></li>
-                        <li><NavLink className='linkek'> <TbBellExclamation /> Eurobeat</NavLink ></li>
+                        <li><NavLink className='linkek' to={"/popeurobeat"}> <TbBellExclamation /> Eurobeat</NavLink ></li>
                         <li><NavLink className='linkek'> <TbBell /> Lo-Fi</NavLink ></li>
                         <li><NavLink className='linkek' to={"/popschlager"}> <TbBellExclamation /> Schlager pop</NavLink ></li>
                     </ul>
