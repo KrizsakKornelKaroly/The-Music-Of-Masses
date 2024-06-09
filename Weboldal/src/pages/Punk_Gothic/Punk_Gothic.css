@@ -1,0 +1,87 @@
+.mainpg{
+    width: calc(100% - 350px);
+    color: white;
+    float: right;
+}
+
+.pgCim{
+    color: white;
+    text-align: center !important;
+    margin: 15px;
+}
+.pgLeiras{
+    background-color: #262D4760;
+    margin: 2%;
+    border-radius: 15px;
+    height: auto;
+    font-size: xx-large;
+    padding: 2%;
+}
+.pgCsikok{
+    background-color: #262D47;
+    display: block;
+    margin: 20px;
+    border-radius: 50px;
+    width: 90%;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.pgIkon{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+}
+.pgZaszlo{
+    width: 35px;
+}
+.pgZaszloFo, .pgEvszam, .pgZNev, .pgIkonKor{
+    display: inline;
+    margin-left: 2%;
+}
+.pgEvszam{
+    float: right;
+    margin-bottom: 0px;
+    font-size: larger;
+    top: 50%;
+}
+.pgZenekarszekcio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.pgBaloszlop, .pgJobboszlop{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+.pgCarouselalap{
+    background-color: #262D4760;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.pgCarousel{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1100px)
+{
+    .mainpg{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .pgZenekarszekcio{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+.pgCarouselKep{
+    width: 100%;
+}
