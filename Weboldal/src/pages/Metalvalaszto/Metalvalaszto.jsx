@@ -40,7 +40,7 @@ const Metalvalaszto = () => {
       <main className="mainMetal">
         <div className="cimSzoveg">
           <h1 id="cimM">Metal stílus</h1>
-          <p id="szovegM">Kemény erős nőket szeretem. Amíg le tudom győzni őket szaknderben, nincs gond.</p>
+          <p id="szovegM">Kemény erős nőket szeretem. Amíg le tudom győzni őket szkanderben, nincs gond.</p>
           <span id="alkotoM">James Hetfield</span>
         </div>
         <img src="./public/JamesHetfield.png" id="kepM" />

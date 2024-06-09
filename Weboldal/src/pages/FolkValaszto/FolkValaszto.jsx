@@ -40,7 +40,7 @@ const FolkValaszto = () => {
       <main className="mainFolk">
         <div className="cimSzovegF">
           <h1 id="cimF">Folk stílus</h1>
-          <p id="szovegF">Kemény erős nőket szeretem. Amíg le tudom győzni őket szaknderben, nincs gond.</p>
+          <p id="szovegF">"Az élet útján járva hallom a fák susogását, a folyó zúgását, s mindezek dalában megtalálom az ősök bölcsességét és a természet örök harmóniáját."</p>
         </div>
         <img src="./public/folkem.png" id="kepF" />
         <h1 id="cimFo">Alstílus</h1>
@@ -61,7 +61,7 @@ const FolkValaszto = () => {
             className="testcarouselF"
           >
             <p className="kepFo"><img className="kepCarouselFolk" src="/magyar.png" alt="Heavy Metal" title="Heavy Metal" /><br />Magyar Folk</p>
-            <p className="kepFo"><img className="kepCarouselFolk" src="/skandinav.png" alt="Thrash Metal" title="Thrash Metal"/><br />Skandináv</p>
+            <p className="kepFo"><img className="kepCarouselFolk" src="/skandinav.png" alt="Thrash Metal" title="Thrash Metal"/><br />Skandináv folk</p>
         </Carousel>
           
          
